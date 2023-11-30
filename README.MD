@@ -36,5 +36,4 @@ RMM Lite remote management (allows remote media, power control, KVM.)
 
 I am planning on a going with a bare metal install of a free VMWare ESXI bare metal hypervisor as , which comes with a trial as a part of a part of VSpehere to manager clusters, free for 60 days, or opt in to the .
 
-
-<img src="https://docs.vmware.com/en/VMware-vSphere/images/GUID-5EB66614-1EE8-4F39-8C8B-1E97EEE76791-high.png" alt="Alternate text" />
+![RoughOutline](/https://docs.vmware.com/en/VMware-vSphere/images/GUID-5EB66614-1EE8-4F39-8C8B-1E97EEE76791-high.png")
