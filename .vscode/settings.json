@@ -21,7 +21,7 @@
     "editor.multiDocumentOccurrencesHighlight": true,
     "editor.scrollbar.vertical": "visible",
     "editor.suggestSelection": "first",
-    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.nonBasicASCII": "inUntrustedWorkspace",
     "git.defaultCloneDirectory": "",
     "github.codespaces.defaultExtensions": [
         "GitHub.Codespaces",
@@ -36,5 +36,22 @@
     "npm.enableRunFromFolder": true,
     "npm.exclude": "",
     "redhat.telemetry.enabled": true,
-    "settingsSync.ignoredSettings": []
+    "settingsSync.ignoredSettings": [],
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultFormatter": "svipas.prettier-plus",
+    "editor.experimental.asyncTokenizationLogging": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.scrollWithEditor": true,
+    "editor.unicodeHighlight.includeComments": true,
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "readme",
+    "explorer.fileNesting.enabled": true,
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true,
+    "scm.experimental.showSyncView": false,
+    "scm.providerCountBadge": "visible",
+    "git.branchRandomName.enable": false,
+    "git.smartCommitChanges": "tracked",
+    "remoteHub.gitProtocol": "http",
+    "git.alwaysShowStagedChangesResourceGroup": true
 }
