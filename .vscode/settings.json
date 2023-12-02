@@ -1,0 +1,40 @@
+{
+    "cloudcode.updateChannel": "Default",
+    "cSpell.enableFiletypes": [
+        "csv_pipe",
+        "dockercompose",
+        "dockerfile",
+        "git-rebase",
+        "markdown-math",
+        "properties"
+    ],
+    "cssPeek.trace.server": "messages",
+    "docker.commands.composeUpSubset": [
+        {
+            "label": "Compose Up",
+            "template": "${composeCommand} ${profileList} ${configurationFile} up ${detached} ${build} ${serviceList}"
+        }
+    ],
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.linkedEditing": true,
+    "editor.multiDocumentOccurrencesHighlight": true,
+    "editor.scrollbar.vertical": "visible",
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "git.defaultCloneDirectory": "",
+    "github.codespaces.defaultExtensions": [
+        "GitHub.Codespaces",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "githubPullRequests.showPullRequestNumberInTree": true,
+    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.showBuildInLibs": true,
+    "npm.enableRunFromFolder": true,
+    "npm.exclude": "",
+    "redhat.telemetry.enabled": true,
+    "settingsSync.ignoredSettings": []
+}
