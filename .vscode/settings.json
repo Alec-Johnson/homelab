@@ -53,5 +53,8 @@
     "git.branchRandomName.enable": false,
     "git.smartCommitChanges": "tracked",
     "remoteHub.gitProtocol": "http",
-    "git.alwaysShowStagedChangesResourceGroup": true
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    }
 }
