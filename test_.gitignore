@@ -1,0 +1,16 @@
+*.env
+
+// BEGIN: Test cases
+// Test case 1: Check if .env file is ignored
+test(".env file should be ignored", () => {
+  const filePath = "/Alec-Johnson/homelab/.env";
+  const isIgnored = isFileIgnored(filePath);
+  expect(isIgnored).toBe(true);
+});
+
+// Test case 2: Check if .env.example file is not ignored
+test(".env.example file should not be ignored", () => {
+  const filePath = "/Alec-Johnson/homelab/.env.example";
+  const isIgnored = isFileIgnored(filePath);
+  expect(isIgnored).toBe(false);
+});
