@@ -37,15 +37,15 @@ RMM Lite remote management (allows remote media, power control, KVM.)
 ### TODO
 
 Install 1Gbps firewall w/ 4 ports with opnsense
-Don't create any rules that allow traffic from your dmz zones to your iot and internal lan zones. This ensures that even if a box gets compromised in your dmz, it cannot access your internal LAN networks. Enable logging for your deny policies. You will have visibility if something in your network tries accessing anything which it shouldn't.
+Don't create any rules that allow traffic from your dmz zones to your io or other important internal network(LAN/VLAN) zones. This ensures that even if a box gets compromised in your dmz, it cannot access your internal LAN networks. Enable logging for your deny policies. You will have visibility if something in your network tries accessing anything which it shouldn't.
 
 Disable management traffic/login on all interfaces except your internal lan network. This way you can only login to the firewall from your internal network.
 
 Disable vpn if you don't intend to login to your firewall remotely/access your internal resources remotely. This automatically makes your firewall invulnerable to any vpn related vulnerability that could come up in the future.
 
-Create policies for your publically accessible dmz applications/servers as specific as possible ( open only the specific ports that you need, use custom ports whenever possible). If your firewall supports geo IP objects and you only intend to access from US based IPs, block access from all other countries.
+Create policies for your publically accessible dmz applications/servers as specific as possible (open only the specific ports that you need, use custom ports whenever possible). If your firewall supports geo IP objects and you only intend to access from US based IPs, block access from all other countries, etc.
 
-If your firewall can handle the load, enable IPS and setup a logging server that collects logs from your firewall ( and other devices such as switches, APs etc). Monitor the logs on a weekly basis at the very least and identify traffic that is malicious/ trying to run exploits or scans. Manually block these IPs on your firewall or an upstream/isp router.
+>If your firewall can handle the load, enable IPS and setup a logging server that collects logs from your firewall ( and other devices such as switches, APs etc). Monitor the logs on a weekly basis at the very least and identify traffic that is malicious/ trying to run exploits or scans. Manually block these IPs on your firewall or an upstream/isp router.
 
 Ensure that your publically accessible servers are up to date and not vulnerable to any major exploits. Also ensure that these servers have automatic protection against brute force attacks ( automatically ban IPs if it detects multiple login failures within a short time period etc)
 
@@ -58,6 +58,5 @@ Setup deny policies from your DMZ zones to your internal network zones and keep 
 I am planning on a going with a bare metal install of a free VMWare ESXI bare metal hypervisor as, which comes with a trial as a part of a part of VSpehere to manager clusters, free for 60 days, or opt in to the free plan less to mess with (for now) and see how it goes.
 
 ![vDiagram][vDiagram]
-![git remote add origin `<http:C\Alec-Johnson\homelabs://\Alec-Johnson\homelab,`]
 
 [vDiagram]: https://docs.vmware.com/en/VMware-vSphere/images/GUID-5EB66614-1EE8-4F39-8C8B-1E97EEE76791-high.png
