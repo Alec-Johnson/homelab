@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "cloudcode.updateChannel": "Default",
     "cSpell.enableFiletypes": [
         "csv_pipe",
@@ -58,4 +59,10 @@
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
     }
     
+=======
+    "cSpell.language": "en,en-US,lorem",
+    "cSpell.enableFiletypes": [
+        "dockercompose"
+    ],
+>>>>>>> Stashed changes
 }
