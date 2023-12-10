@@ -1,8 +1,8 @@
 {
-	"folders": [
+	"work": [
 		{
 			"path": "."
-		}
+		},
 	],
 	"settings": {
 		"github.codespaces.defaultExtensions": [
@@ -13,14 +13,17 @@
 		"npm-intellisense.scanDevDependencies": true,
 		"npm-intellisense.packageSubfoldersIntellisense": true,
 		"liveServer.settings.donotShowInfoMsg": true,
-		"githubPullRequests.showPullRequestNumberInTree": true,
-		"cssPeek.trace.server": "messages",
 		"redhat.telemetry.enabled": true,
 		"docker.commands.composeUpSubset": [
 			{
 				"label": "Compose Up",
 				"template": "${composeCommand} ${profileList} ${configurationFile} up ${detached} ${build} ${serviceList}"
-			}
-		]
-	}
+			},
+		],
+	},
+	"folders": [
+		{
+			"path": ""
+		},
+	],
 }

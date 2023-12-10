@@ -1,18 +1,14 @@
-{
-    /**
-     * Specifies the remote environment configuration.
-     */
-    // "build": {
-    //     "dockerfile": "Dockerfile"
-    //     // Add your build configuration here
-    // },
+{    
+     "build": {
+         "dockerfile": "Dockerfile"
+    },
     "remoteEnv": {
-            "MY_REMOTE_VARIABLE3": "homelab-master-remote",
-            "MY_REMOTE_VARIABLE2": "homelab-master-remote",
+            "MY_REMOTE_VARIABLE3": "${localEnv:PATH}-master-remote",
+            "MY_REMOTE_VARIABLE2": "${localEnv:PATH}master-remote",
             "MY_REMOTE_VARIABLE1": "${containerEnv:MY_CONTAINER_VARIABLE2}:${remoteEnv:MY_REMOTE_VARIABLE2}"
     },
     "containerEnv": {
-        "MY_CONTAINER_VARIABLE": "homelab-devContainer-wsl",
+        "MY_CONTAINER_VARIABLE": "suppressInlayHintsForParametersThatDifferOnlyBySuffix-devContainer-wsl",
         "MY_CONTAINER_VARIABLE2": "${localEnv:PATH}:${containerEnv2:MY_CONTAINER_VARIABLE2}"
     }
 }

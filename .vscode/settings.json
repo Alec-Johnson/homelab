@@ -1,49 +1,6 @@
 {
-<<<<<<< Updated upstream
-    "cloudcode.updateChannel": "Default",
-    "cSpell.enableFiletypes": [
-        "csv_pipe",
-        "dockercompose",
-        "dockerfile",
-        "git-rebase",
-        "markdown-math",
-        "properties"
-    ],
-    "cssPeek.trace.server": "messages",
-    "docker.commands.composeUpSubset": [
-        {
-            "label": "Compose Up",
-            "template": "${composeCommand} ${profileList} ${configurationFile} up ${detached} ${build} ${serviceList}"
-        }
-    ],
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.linkedEditing": true,
-    "editor.multiDocumentOccurrencesHighlight": true,
-    "editor.scrollbar.vertical": "visible",
-    "editor.suggestSelection": "first",
-    "editor.unicodeHighlight.nonBasicASCII": "inUntrustedWorkspace",
-    "git.defaultCloneDirectory": "",
-    "github.codespaces.defaultExtensions": [
-        "GitHub.Codespaces",
-        "GitHub.vscode-pull-request-github"
-    ],
-    "githubPullRequests.showPullRequestNumberInTree": true,
-    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "npm-intellisense.packageSubfoldersIntellisense": true,
-    "npm-intellisense.scanDevDependencies": true,
-    "npm-intellisense.showBuildInLibs": true,
-    "npm.enableRunFromFolder": true,
-    "npm.exclude": "",
-    "redhat.telemetry.enabled": true,
-    "settingsSync.ignoredSettings": [],
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.defaultFormatter": "svipas.prettier-plus",
-    "editor.experimental.asyncTokenizationLogging": true,
-    "editor.smoothScrolling": true,
-    "editor.stickyScroll.scrollWithEditor": true,
-    "editor.unicodeHighlight.includeComments": true,
+    "cSpell.language": "en,en-US,lorem",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "workbench.startupEditor": "readme",
     "explorer.fileNesting.enabled": true,
@@ -56,13 +13,85 @@
     "remoteHub.gitProtocol": "http",
     "git.alwaysShowStagedChangesResourceGroup": true,
     "[jsonc]": {
-        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-    }
+        "editor.defaultFormatter": "vscode.typescript-language-features","breadcrumbs.showInterfaces": true
+    },
     
-=======
-    "cSpell.language": "en,en-US,lorem",
-    "cSpell.enableFiletypes": [
-        "dockercompose"
-    ],
->>>>>>> Stashed changes
+                "cSpell.enableFiletypes": [
+                    "cSpell.language": "en,en-US,lorem",
+                    "docker-compose build": docker-compose up,
+                ],
+                    "docker build": {
+                        "command": "-t your-image-name:tag .",
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "git-rebase": {},
+                "markdown-math": {},
+                "properties": {},
+                "jsonc": {},
+            },
+            "editor.defaultFormatter": "esbenp.prettier-vscode" {
+            "git-rebase": {},
+            "markdown-math": {},
+            "properties": {},
+            "jsonc": {}
+        }
+        "docker.commands.composeUp":[
+                "label",
+                "template": "${composeCommand} ${configurationFile} up ${detached} ${build}",
+        ]
+        "label": docker-compose build: {
+            "docker build": {
+                "command": "-t your-image-name:tag ."
+            },
+            "Spell.enableFiletypes": "imina", {
+            "editor.quickSuggestions": {
+                "strings": true,
+            },
+        },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+  },
+}
+    
+        "donot": {},
+        "hbenl": {},
+        "rvest": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+        },
+        "svipas": {},
+        "zainchen": {},
+        "editor": {
+            "cursorBlinking": "offf",
+            "cursorSmoothCaretAnimation": "on",
+            "linkedEditing": true,
+            "multiDocumentOccurrencesHighlight": true,
+            "scrollbar": {
+                "vertical": "visible",
+            },
+            "suggestSelection": "first",
+            "unicodeHighlight": {
+                "nonBasicASCII": "inUntrustedWorkspace",
+            },
+        },
+        "unicodeHighlight": {
+            "nonBasicASCII": "inUntrustedWorkspace",
+        },
+            ,
+        "editor": {
+            "cursorBlinking": "off",
+            "cursorSmoothCaretAnimation": "on",
+            "linkedEditing": true,
+            "multiDocumentOccurrencesHighlight": true,
+            "scrollbar": {
+                "vertical": "visible",
+            },
+            "suggestSelection": "first",
+            "unicodeHighlight": {
+                "nonBasicASCII": "inUntrustedWorkspace",
+            },
+        },
+    },
 }

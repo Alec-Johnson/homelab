@@ -42,6 +42,7 @@
     "editor.experimental.asyncTokenizationLogging": true,
     "editor.smoothScrolling": true,
     "editor.stickyScroll.scrollWithEditor": true,
+    "editor.maxTokenizationLineLength": 1000000,
     "editor.unicodeHighlight.includeComments": true,
     "editor.formatOnPaste": true,
     "workbench.startupEditor": "readme",
@@ -56,5 +57,17 @@
     "git.alwaysShowStagedChangesResourceGroup": true,
     "[jsonc]": {
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-    }
+    },
+    "dockercompose": {
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "donot": {},
+    "hbenl": {},
+    "rvest": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "svipas": {},
+    "zainchen": {}
 }
